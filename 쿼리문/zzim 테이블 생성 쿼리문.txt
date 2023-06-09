@@ -1,0 +1,11 @@
+create table zzim (
+`user_id` varchar(500),
+`toonTitle` varchar(100) primary key,
+`img` varchar(500),
+`toonName` varchar(500),
+`day` varchar(500),
+`description` varchar(1000),
+`writer` varchar(500),
+`platform` varchar(500),
+`link` varchar(500)
+) default charset utf8;

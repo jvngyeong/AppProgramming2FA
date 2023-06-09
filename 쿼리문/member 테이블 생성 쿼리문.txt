@@ -1,0 +1,8 @@
+create table member (
+`user_id` varchar(100) primary key,
+`user_pw` varchar(100),
+`email` varchar(100),
+`name` varchar(100),
+`phone` varchar(100),
+`birth` varchar(100)
+) default charset utf8;

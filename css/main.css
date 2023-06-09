@@ -1,0 +1,267 @@
+.slide-in2 {
+    animation: change 0.5s ease forwards;
+}
+.DailyListItem{
+    width:160px;
+    border: 1px solid black;
+    display : inline-block;
+    margin:10px;
+    margin-top:20px;
+}
+#zzimbtn{
+    position:fixed;
+    left:10px;
+}
+#detailbtn{
+    position:fixed;
+    right:10px;
+}
+.section{
+    width:50%;
+    height:100px;
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: center;
+    margin : 0 auto;
+    margin-bottom: 40px;
+}
+#toongobtn{
+    position:relative;
+    bottom:-35px;
+}
+.toongotxt{
+    position:relative;
+    top:10px;
+    font-weight: 600;
+    font-size:20px;
+}
+.dayTitle{
+    display: block;
+    font-size: 28px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom:10px;
+}
+.monday{
+    padding-bottom:20px;
+    height:100%;
+    width:100%;
+}
+.toonTitle{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.thumbnail{
+    width:160px; 
+    height:207px;
+    margin-bottom:10px;
+}
+.toontxt{
+    font-weight: 600;
+    font-size:14px;
+}
+.toonimg{
+    top:5px; 
+    width:160px; 
+    height:207px;
+}
+.toonsub{
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-size:14px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+  @keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.section2 {
+    border: 1px solid green;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    margin: 0 5% 15%;
+    width: 90%;
+    height: 100px;
+}
+
+.menu_btn{
+    border: 0;
+    background-color: transparent;
+    display: inline;
+    width:50px; height:50px; margin:10px; margin-left:15px;
+    float: left;
+    padding:0;
+}
+
+.menu_btn{
+    border: 0;
+    background-color: transparent;
+    display: inline;
+    width:50px; height:50px;
+    float: left;
+    padding:0;
+}
+.btn2 {
+    border: 0;
+    background-color: transparent;
+    display: inline;
+    width:50px; height:50px; margin:10px;
+    float: center;
+    padding:0;
+}
+
+.btn3 {
+    border: 0;
+    background-color: transparent;
+    display: inline;
+    width:50px; height:50px; margin:10px; margin-right:15px;
+    float: right;
+    padding:0;
+}
+
+.btn3:hover {
+    background-color: rgb(204, 245, 255);
+}
+.main_leftimage {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.margin1{
+    padding-bottom:70px;
+    text-align: center;
+}
+#test{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+.footer2 {
+    margin: 0 auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
+    position: fixed;
+    bottom: 0;
+    width : 100%;
+    z-index:10;
+}
+
+.top1 {
+    margin: 0 auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    height: 70px;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+}
+
+
+.logout {
+    background-color: rgb(72, 197, 114);
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    width: 40%;
+    height: 30px;
+    transition: all 0.2s linear;
+    float:right;
+    margin:0;
+    position:relative;
+    bottom: 30px;
+    right:10px;
+}
+
+#forPostyouradd {
+    overflow: scroll;
+    border: 0;
+    width: 100%;
+    height: 700px;
+    display: none;
+}
+
+#forPostyouradd::-webkit-scrollbar {
+    display: none;
+    /* 크롬, 사파리, 오페라, 엣지 */
+    width: 0;
+}
+
+details {
+    margin-bottom: 10px;
+}
+.summary1 {
+    padding: 0 10px;
+    background: #000;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.summary2 {
+    padding: 0 10px;
+    background: rgb(0, 212, 113);
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+details summary::marker {
+    font-size: 0;
+}
+details ul {
+    border: 1px solid #aaa;
+}
+details ul li a {
+    display: block;
+    padding: 5px 10px;
+}
+details ul li a:hover {
+    background: #333;
+    color: #fff;
+}
+details .txt {
+    border: 1px solid #999;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+li{
+    border: 2px solid #999;
+    padding : 10px;
+    margin-bottom:10px;
+}
+
